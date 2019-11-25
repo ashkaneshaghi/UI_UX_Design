@@ -1,0 +1,15 @@
+{
+  "name": "srh-student-excercises",
+  "version": "1.0.0",
+  "description": "Week 1 Excercise",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashkan Es Haghi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^3.3.3"
+  }
+}
