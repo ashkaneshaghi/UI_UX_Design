@@ -67,7 +67,8 @@ npm install --save uuid
 ### - start node and test your app
 
 ```
-node 01/src/server.js
+cd 01
+node src/server.js
 ```
 - point your browser to http://localhost:3000/static and make sure you see  "Hello world"
 
