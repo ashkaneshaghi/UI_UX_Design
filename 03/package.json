@@ -1,0 +1,16 @@
+{
+  "name": "srh-student-excercises",
+  "version": "1.0.0",
+  "description": "exercises for srh-course",
+  "main": "index.js",
+  "scripts": {
+    "build": "../../node_modules/.bin/babel src --out-dir=lib",
+    "prepack": "npm run build",
+    "pack": "../../node_modules/.bin/webpack --config=webpack.config.babel.js",
+    "prestart": "npm run pack",
+    "start": "node lib/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
