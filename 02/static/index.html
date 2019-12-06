@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Excercise 1</title>
+<!--
+    Loadinf the Script here (in <head>) wasn't working !!!
+    <script src="app.js"></script> 
+-->
+</head>
+
+<body>
+    <div id="root">
+        <!-- Hello World will place here !!!-->
+    </div>
+    <br><br>
+    <fieldset>
+        <legend>Locations</legend>
+        <form method="GET" action="../locations">
+            <label for="location_num" aria-describedby="Searching for number locations. Only 4 location available">How many location do you want to see (Maximum 4) : </label>
+            <input 
+            type="number" 
+            name="num" 
+            id="location_num" 
+            max="4" 
+            min="1" 
+            autofocus 
+            aria-describedby="Enter number of locations you want to search for "
+            aria-label="Number of Locations"
+            placeholder="Enter number of Locations"
+            >
+            <input type="submit" value="Search..."
+            aria-describedby="Submiting the Form for searching"
+            aria-label="Search"/>
+        </form>
+    </fieldset>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
